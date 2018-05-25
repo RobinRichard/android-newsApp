@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:layout_width="75dp"
+        android:layout_height="50dp"
+        android:id="@+id/cv_img"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cv_text"
+        android:padding="8dp"
+        android:textAppearance="?android:textAppearanceMedium"/>
+</LinearLayout>
